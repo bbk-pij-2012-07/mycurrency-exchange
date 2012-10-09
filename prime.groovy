@@ -1,3 +1,4 @@
+println "Hello emarsys"
 println "Enter your number: "
 String s=System.console().readLine()
 int num = Integer.parseInt(s)
