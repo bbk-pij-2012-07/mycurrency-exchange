@@ -9,23 +9,23 @@ class Mortgage
  
      double totalpaid()
      {
-     double sum = c * (1 + (r/100))
-     return sum
+       double sum = c * (1 + (r/100))
+       return sum
      }
      
      double yearly()
      {
-     double yearly = (c * (1 + (r/100)))/years
-     return yearly
+       double yearly = (c * (1 + (r/100)))/years
+       return yearly
      }
      
      double remaining()
      {
      
-     double sum = totalpaid()
-     double remaining =(sum-c)/years
-     double remyears = years -remaining
-     return remyears
+       double sum = totalpaid()
+       double remaining =(sum-c)/years
+       double remyears = years -remaining
+       return remyears
 
      }
  
