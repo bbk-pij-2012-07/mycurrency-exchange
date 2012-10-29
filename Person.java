@@ -1,16 +1,16 @@
 public class Person
-{  
-  private int name;
+{
+  private String name;
    private int age;
 
-   public Person(int name,int age)
-   
+   public Person(String name,int age)
+
    {
        this.name=name;
        this.age=age;
    }
 
-   public int getName()
+   public String getName()
    {
       return name;
    }
@@ -22,8 +22,8 @@ public class Person
 public static void main (String[] args)
 
 {
-Person jason = new Person(22,28);
-System.out.println ("Person's name is "+ jason.getName()); 
+Person student101 = new Person("John",28);
+System.out.println ("Person's name is "+ student101.getName());
 
 }
 }
